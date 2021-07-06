@@ -19,6 +19,7 @@ A big part of the code in that project is taken from John Miles, KE5FX mainly be
 Pre-Requisites: 
 * Software Qt Creator 4.x (to build the code)
   * For development I use Qt Creator which compile the code with Visual Studio 2019 Community with static build of Qt 5.x (to avoid any external dependencies)
+    * To do a static build of Qt 5.15.2 (with Visual Studio 2019) see Build_Qt5_15_2_msvc2019_64bits.md
 * Software: VISA Components
   * Path for VISA components after installation is available in vna_qt.pro
   * For the development/test I have used KeySight IOLibSuite_18_1_24130.exe
