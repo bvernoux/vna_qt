@@ -16,11 +16,11 @@ A big part of the code in that project is taken from John Miles, KE5FX mainly be
 * It support both 32bits and 64bits visa lib.
 
 Pre-Requisites: 
-* Software Qt Creator 5.x (to build the code)
+* Software Qt Creator 4.x (to build the code)
   * For development I use Qt Creator which compile the code with Visual Studio 2019 Community with static build of Qt 5.x (to avoid any external dependencies)
 * Software: VISA Components
   * Path for VISA components after installation is available in vna_qt.pro
   * For the development/test I have used KeySight IOLibSuite_18_1_24130.exe
     * See https://www.keysight.com/en/pd-1985909/io-libraries-suite (it is freely available after free registration)
-* Hardware: HP 8753 VNA
+* Hardware: HP 8753 series vector network analyzers
   * This application has been tested only with HP 8753D VNA with firmware 06.14 with OPTS 002 006 010 (from 30kHz to 6GHz)
